@@ -41,14 +41,14 @@ public class Main {
 		//			}
 		//		};
 		//Eller som vi så senere, som et lambda-uttrykk, slik:
-		Sammenligner<Person> fnsmnlgn = (a, b) -> a.fornavn().compareTo(b.fornavn());
+		Sammenligner<Person> fnsmnlgn = (a,b) -> a.fornavn().compareTo(b.fornavn());
 		
 		Utvalgssortering.sorter(listeAvPersoner, fnsmnlgn);
 		System.out.println("Sortert på fornavn:   " + listeAvPersoner);
 		
 		//5. Ønsker å sortere på fødselsår. Hva gjør vi?
 		//   Jo, tilsvarende til forrige:
-		Sammenligner<Person> aarsmnlgn = (Person a, Person b) -> a.fodselsaar() - b.fodselsaar();
+		Sammenligner<Person> aarsmnlgn = (a,b) -> a.fodselsaar() - b.fodselsaar();
 		
 		Utvalgssortering.sorter(listeAvPersoner, aarsmnlgn);
 		System.out.println("Sortert på fødselsår: " + listeAvPersoner);
