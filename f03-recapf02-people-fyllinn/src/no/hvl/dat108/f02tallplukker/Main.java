@@ -24,8 +24,5 @@ public class Main {
 		//4. Plukk ut og returner alle tall større enn 8
 	}
 	
-	public static Betingelse storreEnn(int tall) {
-		return x -> x > tall;
-	}
 }
 
