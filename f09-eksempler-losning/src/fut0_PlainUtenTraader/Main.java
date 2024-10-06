@@ -5,7 +5,7 @@ import java.time.Instant;
 
 public class Main {
 
-	public final static int N = 44;
+	public final static int N = 47;
 	
 	public static void main(String... kommandolinjeargumenter) {
 		

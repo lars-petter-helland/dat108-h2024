@@ -2,7 +2,7 @@ package ex2_immutable;
 
 public class MeldingImmutable {
 	
-	private String innhold;
+	private final String innhold;
 
 	public MeldingImmutable(String innhold) {
 		this.innhold = innhold;

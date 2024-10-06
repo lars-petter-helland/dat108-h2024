@@ -5,7 +5,7 @@ import java.time.Instant;
 
 public class Main {
 
-	public final static int N = 44;
+	public final static int N = 46;
 	
 	//"Global variabel" :(
 	//Måtte flytte denne hit og gjøre den static for å kunne endre fra run() !! :(
