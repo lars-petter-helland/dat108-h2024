@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<form action="kontovalg" method="get">
+	<!-- Sjekk ut https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/hidden -->
+	<input type="hidden" name="usersecret" value="7FQ12lkj324kj23h4k23j5657k">
+  <fieldset>
+    <p>Velg konto:</p>
+    <!-- Bruk av indekser for oppslag på server -->
+    <input type="radio" name="kontovalg" value="0" checked>Brukskonto<br>
+    <input type="radio" name="kontovalg" value="1">Sparekonto <br>
+    <input type="radio" name="kontovalg" value="2">Aksjekonto <br>
+    <p><input type="submit" value="Se detaljer"></p>
+  </fieldset>
+</form>
+
+</body>
+</html>
