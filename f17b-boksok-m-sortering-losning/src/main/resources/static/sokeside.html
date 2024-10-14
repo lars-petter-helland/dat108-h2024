@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="simple.css">
+	<title>Søk på forfatter</title>
+</head>
+<body>
+	<h4>Søk etter bøker på forfatter</h4>
+	
+	<form action="noenboker" method="get">
+		Søkestreng <input type="text" name="forfatter"><br>
+		
+		Sortering på tittel <input type="radio" name="sortering" value="paaTittel" checked>
+		, eller på utg.år <input type="radio" name="sortering" value="paaAar"><br>
+		
+		Genre -  
+		Roman<input type="checkbox" name="genre" value="Roman" checked>, 
+		Romanse<input type="checkbox" name="genre" value="Romanse">,
+		Drama<input type="checkbox" name="genre" value="Drama"><br>
+		
+		<p><input type="submit" value="Søk!"></p>
+	</form>
+	
+</body>
+</html>
+
