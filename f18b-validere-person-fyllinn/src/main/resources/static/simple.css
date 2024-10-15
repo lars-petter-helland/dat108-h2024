@@ -82,9 +82,12 @@ body {
 */
 }
 
+/*
 body > * {
   grid-column: 2;
 }
+*/
+
 
 /* Make the header bg full width, but the content inline with body */
 body > header {
