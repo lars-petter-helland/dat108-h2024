@@ -1,0 +1,17 @@
+# Et alternativ til application.properties som tåler æøå.
+# Formatet heter YAML.
+#
+# For en oversikt over YAML (YAML Ain’t Markup Language) , se f.eks.
+#   https://www.cloudbees.com/blog/yaml-tutorial-everything-you-need-get-started
+
+spring:
+   mvc:
+      view:
+         prefix: /WEB-INF/jsp/
+         suffix: .jsp
+app:
+   melding1: Hallo
+   melding2: ÆØÅ æøå
+
+    
+
